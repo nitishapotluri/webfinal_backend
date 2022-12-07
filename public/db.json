@@ -1,0 +1,42 @@
+{
+    "Thrift": [{
+    "id" : 1,
+    "color": "Blue",
+    "Brand": "Tommy Hilfiger",
+    "Price": 10,
+    "Condition": "New",
+    "Size": "S"
+
+},
+{
+    "id" : 2,
+    "color": "Green",
+    "Brand": "Calvin Klein",
+    "Price": 100,
+    "Condition": "Used",
+    "Size": "L"
+},
+{
+    "id" : 3,
+    "color": "Yellow",
+    "Brand": "Hally",
+    "Price": 34,
+    "Condition": "New",
+    "Size": "M"
+},
+{
+    "id" : 4,
+    "color": "Red",
+    "Brand": "mk",
+    "Price": 167,
+    "Condition": "New",
+    "Size": "PL"
+},
+{
+    "id" : 5,
+    "color": "Black",
+    "Brand": "Tommy Hilfiger",
+    "Price": 100,
+    "Condition": "New",
+    "Size": "S"
+}]}

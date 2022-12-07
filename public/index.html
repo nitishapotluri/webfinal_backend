@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Nitisha Potluri</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="navbar">
+            <section id = "menu">
+                <p><b>NITISHA POTLURI</b></p>
+                <a class="gray-bg" href ="#about"> <b>About</b> </a>
+                <a class="gray-bg" href ="#Education"><b>Education</b> </a>
+                <a class="gray-bg" href ="#Experience"><b>Experience</b> </a>
+                <a class="gray-bg" href ="#Projects"><b>Projects</b> </a>
+                <a class="gray-bg" href ="#Blogs"><b>Blogs</b> </a>
+                <a class="gray-bg" href ="#Contact"><b>Contact</b> </a>
+            </section>
+        </section>
+
+        <div class="layout" id="about">
+            <b>ABOUT</b>
+            <p>I am Nitisha Potluri pursuing my masters in computers and information science
+               from university of New Haven. I will be graduating by fall 2022. I have studied information
+               Technology in my UnderGraduation.I have completed my bachelors in 2017. After that I started 
+               working with IBM as SAP ABAP consultant then I moved to Accenture in 2020. While I am 
+               working I have parallely started process for masters.
+            </p>
+        </div>
+
+        <div class="layout" id="Education">
+            <h><b>EDUCATION</b></h>
+
+            <b><p><li>GRADUATION</li></p></b>
+            <p>Masters in Computers and Information sciences from University of New Haven by Fall 2022 with GPA 3.62/4/00</p>
+
+            <b><p><li>UNDERGRADUATION</li></p></b>
+            <p>Bachelors in Information Technology from PVPSIT with GPA 9.05/10 IN 2017</p>
+        </div>
+
+        <div class="layout" id="Experience">
+           <h><b>EXPERIENCE</b></h>
+           <ul>
+            <b>IBM</b>
+            <li>Designation: Application Developer</li> 
+            <li>Client: Heineken</li>
+            <li>Duration: September 2017 to February 2020</li>
+            <li>Role:SAP ABAP Developer</li>
+           </ul>
+
+           <ul>
+            <br><b>ACCENTURE</b>
+            <li>Designation: Senior System Engineer</li> 
+            <li>Client: Barilla</li>
+            <li>Duration: February 2020 to August 2021</li>
+            <li>Role:Senior SAP ABAP Developer</li>
+           </ul>
+        </div>
+
+        <div class="layout" id="Projects">
+            <h><b>PROJECTS</b></h>
+            <ul>
+                <h><b>PROJECT1</b></h>
+                <li>Project Name: Detection of heart attacks of an individual using the health data</li>
+                <li>Subject: Data Mining</li>
+                <li>Team Size: 3</li>
+            </ul>
+            
+            <ul>
+                <h><b>PROJECT2</b></h>
+                <li>Project Name: Mind Game</li>
+                <li>Subject: Python</li>
+                <li>Team Size: 2</li>
+            </ul>
+        </div>
+
+        <div class="layout" id="Blogs">
+            <h><b>BLOGS</b></h><br>
+            <p>I am working on a AI game project.Once it is finished I am going to post it in my Github link</p>
+            <i class="fa fa-github" style="font-size:30px"></i>
+            <a href="https://github.com/"></a>
+
+        </div>
+
+        <div class="layout" id="Contact">
+            <h><b>CONTACT</b></h>
+            <p>
+                Nitisha Potluri,<br>University of New haven,<br>Connecticut,<br>USA<br>Phone:+1(732)401-6681<br>
+                Email:npotl1@unh.newhaven.edu<br>
+
+            </p>
+            <a href ="https://www.facebook.com/" class= "fa fa-facebook" style ="font-size: 30px"></a>
+            <a href ="https://www.instagram.com/" class= "fa fa-instagram" style ="font-size: 30px"></a>
+            <a href ="https://www.linkedin.com/"   class= "fa fa-linkedin-square" style="font-size:30px"></a>
+        </div>
+
+    </body>
+<style>
+.gray-bg{
+    color:green;
+    margin-left: 40px;
+    text-align:left;   
+    text-size-adjust: 200px;
+}
+
+.navbar{
+      background-color: pink;
+      height:100%;
+      border: 3px solid blueviolet;
+      overflow: hidden;
+      padding: 30px;
+      display: grid;
+      float:inherit;
+}
+#menu{
+    padding-top: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.layout{
+    height:100px;
+    background-color: skyblue;
+    margin: 20px;
+    padding: 10px;
+    text-align: left;
+    
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.0001fr 0.0001fr 0.0001fr 0.0001fr 0.0001fr 0.0001fr 0.0001fr;
+    grid-template-areas: "about"
+    "Education"
+    "Experience"
+    "Projects"
+    "Contact"
+    "Blog";
+    gap: 0.5em;
+}
+#about{
+    text-align: left;
+    height: 100%;
+}
+#Education{
+    height:100%;
+}
+#Experience{
+    height:100%;
+}
+#Projects{
+    height:100%;
+}
+#Contact{
+    height:100%;
+}
+#Blogs{
+    height:100%;
+}
+#name{
+    font-size: 20px;
+
+    color:goldenrod;
+}
+.fa-facebook{
+    /* background:blue; */
+    color:blue;
+    padding:auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.fa-instagram{
+    /*background-color: orangered; */
+    color: red;
+    padding: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+.fa-linkedin {
+    background: rgb(4, 4, 117);
+    color: white;
+    padding: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+@media screen and (max-width:500px){
+    .navbar{
+        float:none;
+        display:block;
+    }
+    .about{
+        height: 100%;
+        width:100%;
+    }
+    .menu{
+        height:100%;
+    }
+    .layout{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr;
+    grid-template-areas: "about"
+    "Education"
+    "Experience"
+    "Projects"
+    "Contact"
+    "Blog";
+    gap: 0.5em;
+    }
+}
+  
+</style>
+</html>
